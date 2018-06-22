@@ -8,7 +8,7 @@ shared:
   # Docker image - https://hub.docker.com/_/ruby/
   image: ruby:2
   environment:
-    - SOURCE_CLEAR_TARGET_DIR: ./spec
+    SOURCE_CLEAR_TARGET_DIR: ./spec
   secrets:
     - SOURCE_CLEAR_TOKEN
 
